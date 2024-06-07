@@ -14,14 +14,12 @@
 }
 
 .navbar {
-    background: white !important;
+    background: white!important;
     height: 90px;
 }
 
 .navbar-nav li {
     padding: 0 10px;
-
-
 
 }
 
@@ -30,6 +28,37 @@
     font-weight: bold;
     font-size: 15px;
     text-shadow: 2px 2px 8px;
+}
+.navbar-nav li a:hover{
+    background-color: #fab9b9;
+    
+
+}
+.dropdown {display: none;}
+
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: -20px;
+
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+    background-color: white;
+    text-align: left;
+    
+    
+    
+}
+.dropdown ul li a{
+    text-decoration: none;
+    
 }
 
 .sp {
@@ -154,7 +183,7 @@
 }
 
 .text {
-    
+
     text-align: left;
     font-size: 55px;
     font-weight: 700;
@@ -179,15 +208,16 @@
     color: #262121;
     font-size: 18px;
     font-family: Roboto, sans-serif !important;
-   
+
 }
 
-.back{
+.back {
     background-image: url(../Image/why_choose_us\ bg.jpg);
     width: 100%;
     height: 100%;
-    }
-.free{
+}
+
+.free {
     padding: 31px 0 50px 0;
     background-image: url(../Image/free-quate-bg.webp);
     background-repeat: no-repeat;
@@ -195,22 +225,25 @@
     height: 350px;
     width: 100%;
 }
-.free h2{
+
+.free h2 {
     font-size: 32px;
     color: #fff;
     text-align: center;
     letter-spacing: 1px;
     margin-top: 50px;
-    
+
 }
-.free p{
+
+.free p {
     font-size: 18px;
     color: #fff;
     line-height: 32px;
     padding-top: 10px;
     text-align: center;
 }
-.read-mora1{
+
+.read-mora1 {
     color: #fff;
     border: 2px solid #fff;
     font-size: 16px;
@@ -218,8 +251,9 @@
     padding: 8px 15px;
     text-decoration: none;
 }
+
 /* footer CSS */
-.foot-01{
+.foot-01 {
     padding: 10px 0 0 0;
     color: #fff;
     font-weight: lighter;
@@ -230,49 +264,492 @@
     height: 100%;
 
 }
-.Resin{
-    margin-left: -157px;
-    margin-top: -59px;
+
+.para {
+    position: relative;
+    top: -88px;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 30px;
+    left: 23px;
+
 }
-.service-1{
+
+
+
+.service-1 {
     line-height: 35px;
     padding-top: 10px;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin-right: -76px;
+    position: relative;
+    left: 50px;
 
 }
-.service-1 ul{
+
+
+
+.service-1 ul {
     padding: 0;
     margin: 0;
 }
-.service-1 a{
+
+.service-1 li {
+
+    list-style-type: square;
+}
+
+.service-1 a {
     text-decoration: none;
     color: #fff;
-   
+
+
 }
-.service-2{
+
+
+
+.service-2 {
     line-height: 24px;
-    padding: 5px 0 0 8px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-
+    padding-top: 15px;
+    position: relative;
+    right: -11px;
 }
-.service-2 ul{
+
+
+
+.service-2 h4 {
+    font-size: 24px;
+    padding-left: 10px;
+    color: #0e5953;
+    font-weight: 700;
+}
+
+.service-2 ul {
     padding: 0;
     margin: 0;
 }
-.service-1 a{
-    text-decoration: none;
-    color: #fff;
-   
+
+.service-2 ul li {
+    background-position: 2px 5px;
+    padding-left: 32px;
+    list-style: none;
+    padding-top: 2px;
+    padding-bottom: 5px;
+
 }
 
+.service-2 ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* about CSS Start */
+.v {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    background-color: #f8f8f8;
+    padding: 20px 0 30px;
+    text-align: center;
+    background-attachment: fixed;
+    margin: 30px 0;
+
+}
+
+.heading {
+    font-size: 45px;
+    color: #036c68;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    border-left: 7px solid #3f3f3f;
+    padding: 50px 10px;
+}
+
+.Well {
+    text-align: center
+}
+
+.quotes {
+    background-image: url(../Image/quote-01.webp);
+    background-repeat: no-repeat;
+    background-position: left -5px;
 
 
-@media(max-width:768px) {
+}
+
+.quote {
+    margin: 15px 44px;
+
+}
+
+.quote-2 {
+    background-image: url(../Image/quote-02.webp);
+    background-repeat: no-repeat;
+    background-position: right 192px;
+    padding-bottom: 10px;
+}
+
+.pa {
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 400;
+    font-family: sans-serif
+}
+
+.Image {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.ab {
+    width: 100%;
+    height: 100%;
+}
+
+.area {
+    padding-bottom: 75px;
+}
+
+.itn-img {
+    border-left: 15px solid #0e5953;
+}
+
+.about-img {
+    width: 480px;
+}
+
+.sub-title {
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #0B1E33;
+    line-height: 1.3;
+    font-family: fantasy;
+    position: relative;
+    left: 55px;
+    top: 71px;
+    letter-spacing: 2px;
+}
+
+.us {
+    padding: 0 0 0 30px;
+    border-width: 0 0 0 4px;
+    border-style: solid;
+    margin-top: 92px;
+    border-color: #0E9340;
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+.Core-value {
+    padding-bottom: 70px;
+}
+
+.Value {
+    font-size: 45px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: #262121;
+}
+
+.list {
+    list-style: none;
+
+}
+
+.list li {
+    background: url(../Image/arrow.png) left 10px no-repeat;
+    padding-left: 20px;
+    line-height: 29px;
+    font-size: 17px;
+
+}
+
+.lead {
+    border-width: 0 0 0 20px;
+    border-style: solid;
+    border-color: #0E9340;
+    margin-top: -20px;
+
+}
+
+.money {
+    border: 2px solid #ededed;
+    padding: 68px;
+}
+
+.money h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    color: #424849;
+}
+
+.money ul li {
+    background: url(../Image/arrow.png) left 10px no-repeat;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 31px;
+    text-align: justify;
+
+}
+
+.advan {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Product CSS */
+.q1 {
+    padding: 20px;
+    box-shadow: 0 0 8px 4px #d8d8d8;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.q2 {
+    margin-top: 20px;
+}
+
+.q2 ul li {
+    background: url(../Image/arrow.png) left 10px no-repeat;
+    list-style: none;
+    padding-left: 20px;
+    line-height: 33px;
+    font-size: 18px;
+
+}
+
+.pro {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.product {
+    padding: 0;
+    border: 1px solid #323743;
+    background-color: #fff;
+}
+
+.product img {
+    overflow: hidden;
+
+}
+
+.pro-button {
+    padding: 11px 6px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #323743;
+    font-family: sans-serif;
+}
+
+.head {
+    font-size: 25px;
+    text-align: left;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.fully {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.table-page {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.table-01-inner-row td {
+    color: #fff;
+    background-color: #333 !important;
+    border: 2px solid #ccc;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.inner-row td {
+    border: 2px solid #ccc;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Product CSS End */
+/* Quality CSS Start */
+.quality {
+
+    background-image: url(../Image/Quality\ Bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: 50% -5px;
+    background-size: cover;
+    display: block
+}
+
+.policy {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #0e5953;
+    text-align: justify;
+}
+
+.our {
+    text-align: center;
+    color: #0d5751;
+    font-family: emoji;
+    font-weight: 600;
+}
+
+/* Quality CSS End */
+
+/* Enquiry CSS Start */
+
+.form-group {
+    border-left: 5px solid #0d5751;
+    border-radius: 8px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.Submit-box{
+    background-color: #00878c;
+    border: 1px solid #00878c;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 8px;
+    width: 130px;
+    font-size: 20px;
+}
+/* Enquiry CSS End */
+
+/* Contact CSS Start */
+.contact-c1{
+    border: 4px solid #ececec;
+    border-radius: 4px;
+    margin: 30px 0;
+    box-shadow: 0 0 10px 2px #f3f3f3;
+}
+.add{
+    background-position: 0 0;
+    width: 70px;
+    height: 70px;
+    
+}
+.add, .email-contact, .phone-contact, .website{
+    display: inline-block;
+    background: url(../Image/social-image.webp);
+    overflow: hidden;
+    text-align: left;
+}
+.contact-c1 h5 {
+    font-size: 25px;
+    color: #035d5a;
+    position: relative;
+    left: 112px;
+    top: -70px;
+    font-weight: 500
+
+}
+.contact-c1 p{
+    font-size: 18px;
+    line-height: 28px;
+    position: relative;
+    top: -70px;
+    left: 105px;
+    font-weight: 600;
+
+}
+.phone-contact{
+    background-position: 0 -70px;
+    width: 70px;
+    height: 70px;
+}
+.contact-c1 a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+
+}
+.email-contact{
+    background-position: -70px 0;
+    width: 70px;
+    height: 70px;
+}
+.website{
+    background-position: -70px -70px;
+    width: 70px;
+    height: 70px;
+}
+.c{
+    position: relative;
+    left: 380px;
+    top: -390px
+}
+.company{
+    background-color: #035d5a;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    top: -268px;
+    border: 8px solid #555;
+    border-radius: 8px;
+}
+.company h3{
+    word-spacing: 5px;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+
+}
+.company h1{
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    text-shadow: 2px 2px 5px;
+}
+
+@media(max-width:790px) {
     .moblogo {
         display: block;
         margin-top: -8px;
@@ -304,6 +781,35 @@
 
     }
 
-   
+    .us {
+
+        margin-left: 15px;
+        display: block;
+
+    }
+
+    .sub-title {
+        position: relative;
+        left: 10px;
+        display: block;
+
+    }
+    .c{
+        position: relative;
+        left: 5px;
+        top: -10px;
+        display: block;
+        width: 100%;
+    }
+    .company{
+        background-color: #035d5a;
+        height: 150px;
+        width: 100%;
+        position: relative;
+        top: -80px;
+        border: 8px solid #555;
+        border-radius: 8px;
+        display: block;
+    }
 
 }
