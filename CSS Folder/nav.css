@@ -1,0 +1,106 @@
+.weblogo{
+    width: 75px;
+    margin-top: -7px;
+    
+
+}
+.navbar{
+    background: #0e595366!important;
+    height: 80px;
+    
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav li a {
+    color: black!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.navbar-nav li a:hover{
+    background-color: #0e5953;
+    
+
+}
+.moblogo {
+    display: none;
+    width: 75px;
+}
+.mob {
+    display: none;
+}
+.sp {
+    font-size: 30px;
+    color: #0e5953;
+    font-weight: 700;
+
+   
+}
+.dropdown {display: none;}
+
+
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-left: -1px;
+    margin-top: -25px;
+
+}
+.dropdown ul{
+    margin: 0;
+    padding: 0;
+}
+.dropdown ul li{
+    display: block;
+    background-color: #0e595366!important;
+    text-align: left;
+    
+    
+    
+}
+.dropdown ul li a{
+    text-decoration: none;
+    
+}
+.plastt {
+
+    background-image: url(../Image/Strapping+Material.jpeg);
+    width: 100%;
+    height: 600px;
+    background-position: 50% -5px;
+    background-size: cover;
+    display: block
+}
+
+
+
+
+
+
+
+
+@media(max-width:790px) {
+    .moblogo {
+        display: block;
+        margin-top: -8px;
+    }
+
+    .weblogo {
+        display: none;
+
+    }
+    .sp {
+        display: none;
+    }
+    .mob {
+        display: block;
+        font-size: 25px;
+        font-weight: 500;
+        text-decoration: none;
+        position: relative;
+        left: 91px;
+        bottom: 55px;
+}
+}
